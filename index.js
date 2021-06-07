@@ -68,7 +68,7 @@ inquirer
         {
             type: "input",
             name: "bug",
-            message: "Describe any known bugs or future fixes",
+            message: "Describe any known bugs or upcoming features",
         },
         {
             type: "input",
