@@ -9,10 +9,11 @@ ${userInput.description}
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [License](#license)
-4. [Contributing](#contribution)
-5. [Tests](#tests)
-6. [Questions](#questions)
+3. [Known Bugs](#bug)
+4. [License](#license)
+5. [Contributing](#contribution)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
 ## Installation
 
@@ -20,6 +21,9 @@ Github repository is located at (${userInput.repo}). The deployed application is
 
 ## Usage
 ${userInput.usage}
+
+## Known Bugs and Next Steps
+${userInput.bug}
 
 ## License
 ${userInput.license}
@@ -48,11 +52,6 @@ inquirer
         },
         {
             type: "input",
-            name: "usage",
-            message: "Describe the intended usage of your project and how to obtain your code",
-        },
-        {
-            type: "input",
             name: "repo",
             message: "Enter the link to your repository",
         },
@@ -60,16 +59,26 @@ inquirer
             type: "input",
             name: "deployedlink",
             message: "Enter the link to your deployed project",
+        }, 
+        {
+            type: "input",
+            name: "usage",
+            message: "Describe how to use this application",
         },
         {
             type: "input",
-            name: "contribute",
-            message: "Describe if users may or may not contribute to your project",
+            name: "bug",
+            message: "Describe any known bugs or future fixes",
         },
         {
             type: "input",
             name: "license",
             message: "Enter your license",
+        },
+        {
+            type: "input",
+            name: "contribution",
+            message: "Describe if users may or may not contribute to your project",
         },
         {
             type: "input",
